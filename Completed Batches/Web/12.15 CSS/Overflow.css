@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+#bucket{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: yellow;
+    overflow:visible;
+    overflow:hidden;
+    overflow:scroll;
+    overflow: auto;
+}
+
+#frame{
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    border: 10px solid red;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

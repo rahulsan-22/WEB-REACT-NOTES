@@ -1,0 +1,53 @@
+/* ! PX AND % */
+/* #parent{
+    height: 400px;
+    background-color: yellow;
+}
+
+#absolute{
+    height: 200px;
+    background-color: red;
+    width: 800px;
+}
+
+#relative{
+    height: 200px;
+    background-color: blue;
+    width: 50%;
+} */
+
+/* ! VH AND VW */
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    border:10px solid black;
+    background-color: yellow;
+    height: 100vh;
+    width: 40vw;
+} */
+
+/* !EM */
+#parent{
+   font-size:10px;
+}
+#insideParent{
+   font-size: 2em;
+}
+#outsideParent{
+  font-size: 20px; 
+}
+
+/* !REM */
+html {
+    font-size: 5px;
+}
+
+#wrtHtmlTag {
+  font-size: 10rem;
+}
+
+#independent {
+  font-size: 50px;
+}

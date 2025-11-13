@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+/*!Example 1 */
+/* h1 {
+  animation-name: heart;
+  animation-duration: 1s;
+  animation-delay: 800ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-direction: alternate-reverse;
+  animation: heart 800ms 500ms ease infinite alternate;
+}
+@keyframes heart {
+  from {
+    font-size: 10px;
+  }
+  to {
+    font-size: 500px;
+  }
+} */
+
+/* !Example 2 */
+/* #box{
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  background-color: red;
+  animation: box 1s 500ms ease infinite alternate;
+}
+@keyframes box{
+  from{
+   transform: scale(1) translate(0px,0px) rotate(0deg); 
+   border-radius: 0%;
+   background-color: red;
+  }to{
+    transform: scale(0.5) translate(400px,100px) rotate(360deg);
+    border-radius: 50%;
+    background-color:skyblue;
+  }
+} */
+
+/* !Example 3 */
+/* img {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  animation: hypno 600ms 0s linear infinite normal;
+}
+@keyframes hypno {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+} */
+
+/* !Example 4 */
+/* #container {
+  height: 100vh;
+  width: 100vw;
+  animation: colorChange 300ms 0s ease infinite alternate;
+}
+@keyframes colorChange {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    background-color: green;
+  }
+} */
+
+/* !Example 5 */
+/* #slider_container {
+  height: 420px;
+  width: 600px;
+  border: 2px solid black;
+  display: flex;
+  overflow: hidden;
+}
+img {
+  min-height: 100%;
+  min-width: 100%;
+  animation: slider 8s 0s ease infinite alternate;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0px);
+  }
+  13% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-600px);
+  }
+  38% {
+    transform: translateX(-600px);
+  }
+  50% {
+    transform: translateX(-1200px);
+  }
+  68% {
+    transform: translateX(-1200px);
+  }
+  75% {
+    transform: translateX(-1800px);
+  }
+  100% {
+    transform: translateX(-1800px);
+  }
+} */
+
+/* !Example 6 */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#box {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  background-color: red;
+  animation: move 5s 0s ease infinite normal;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(calc(100vw - 150px));
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  50% {
+    transform: translate(calc(100vw - 150px),calc(100vh - 150px));
+    border-radius: 0%;
+    background-color: green;
+  }
+  75% {
+    border-radius: 50%;
+    background-color: blue;
+    transform: translate(0px,calc(100vh - 150px));
+  }
+  100%{
+   border-radius: 0%;
+   background-color: orange;
+  }
+}

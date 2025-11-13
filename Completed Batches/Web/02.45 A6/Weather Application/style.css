@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./assets/weather_background.gif");
+    background-size: 100vw 100vh;
+    display: grid;
+    place-items: center;
+}
+#card_container{
+    height: 420px;
+    width: 380px;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 200px;
+    margin-left: 25px; */
+    transition:  200ms;
+}
+
+#card_container:hover{
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    scale: 0.95;
+}
+
+form{
+    /* border: 2px solid red; */
+    flex-basis:15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#location{
+    height: 39px;
+    width: 220px;
+    border-radius: 28px;
+    padding-left: 10px;
+    outline: none;
+    border:none;
+    font-family:"Kalam";
+}
+input[type="submit"]{
+   color: white;
+   background-color: rgba(65, 105, 225,0.6);
+   border: none;
+   text-transform: uppercase;
+   padding: 7px 10px;
+   border-radius: 20px;
+   font-weight: 700;
+   text-shadow: 10px 10px 20px white;
+   transition: background 400ms;
+}
+input[type="submit"]:hover{
+    background-color: rgba(65, 105, 225,1);
+}
+#img_container{
+    /* border: 2px solid red; */
+    flex-basis: 55%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+#img_container img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: none;
+}
+#temp_humid{
+    /* border: 2px solid red; */
+    flex-basis: 30%;
+    width: 100%;
+    display: flex;
+}
+
+#temp,#humid{
+    /* border: 2px solid yellow; */
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.heading{
+    font-family: "Kalam", cursive;
+    color: white;
+    font-size: 22px;
+}
+
+.para{
+    font-family: "Mate SC", serif;
+    font-size: 27px;
+    color: white;
+    font-style: italic;
+}
+
+#weather_condition{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:"Mate SC";
+    font-style: italic;
+    
+}

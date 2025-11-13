@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+h1{
+  background-color: red;
+  color: white;
+}
+#box{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border: 5px solid white;
+}
+@media (min-width:500px) and (max-width:600px){
+  body{
+    background-color: royalblue;
+  }
+  h1{
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+}
+
+@media (min-width:450px) and (max-width:460px){
+  #box{
+    border-radius: 50%;
+    background-color: maroon;
+    border-color: 5px solid black;
+  }
+}

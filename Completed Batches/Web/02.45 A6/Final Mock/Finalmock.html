@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .color-inputs {
+            margin: 20px 0;
+        }
+
+        .gradient-preview {
+            width: 90vw;
+            height: 500px;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            background: linear-gradient(45deg, #ff0000, #00ff00);
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gradient Generator</h1>
+        <label for="gradientType">Select Gradient Type:</label>
+        <select id="gradientType">
+            <option value="linear">Linear</option>
+            <option value="radial">Radial</option>
+            <option value="conic">Conic</option>
+        </select>
+
+        <div class="color-inputs">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" value="#ff0000">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" value="#00ff00">
+            <label for="color3">Color 3:</label>
+            <input type="color" id="color3" value="#0000ff">
+        </div>
+
+        <div class="gradient-preview" id="gradientPreview"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const gradientTypeSelect = document.getElementById('gradientType');
+            const color1Input = document.getElementById('color1');
+            const color2Input = document.getElementById('color2');
+            const color3Input = document.getElementById('color3');
+            const gradientPreview = document.getElementById('gradientPreview');
+
+            function updateGradient() {
+                const type = gradientTypeSelect.value;
+                const color1 = color1Input.value;
+                const color2 = color2Input.value;
+                const color3 = color3Input.value;
+
+                let gradient;
+
+                switch (type) {
+                    case 'linear':
+                        gradient = `linear-gradient(45deg, ${color1}, ${color2}, ${color3})`;
+                        break;
+                    case 'radial':
+                        gradient = `radial-gradient(circle, ${color1}, ${color2}, ${color3})`;
+                        break;
+                    case 'conic':
+                        gradient = `conic-gradient(${color1}, ${color2}, ${color3})`;
+                        break;
+                }
+
+                gradientPreview.style.background = gradient;
+            }
+
+            gradientTypeSelect.addEventListener('change', updateGradient);
+            color1Input.addEventListener('input', updateGradient);
+            color2Input.addEventListener('input', updateGradient);
+            color3Input.addEventListener('input', updateGradient);
+
+            // Initialize with default values
+            updateGradient();
+        });
+    </script>
+</body>
+</html>

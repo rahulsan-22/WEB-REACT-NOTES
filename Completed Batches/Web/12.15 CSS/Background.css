@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  border: 2px solid black;
+  height:100vh;
+  width:100vw;
+
+  background-color: rgba(0, 0, 170, 0.241);
+
+  background-image: url("https://www.globalindian.com/wp-content/uploads/2023/07/sreeleela-11.png");
+  background-size: 200px 300px;
+
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+
+  background-position: top left;
+  background-position: top center;
+  background-position: top right;
+  background-position: right center;
+  background-position: bottom right;
+  background-position: bottom center;
+  background-position: bottom left;
+  background-position: left center;
+  background-position: center center;
+  background-position:top;
+  background-position:right;
+  background-position:bottom;
+  background-position:left;
+  background-position:300px 200px;
+  background-position:300px;
+  background-position:center;
+
+  background-attachment:scroll;
+  background-attachment:fixed;
+
+  background-size:300px 500px;
+  background-size:300px;
+  background-size: contain;
+  background-size: cover;
+
+  background: red url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0qqEKglP0CWBpxKwDElf4yp8esIjyQMJu87c_CrKkRAyO-8VNulrgLHOHWBDgISgHc4&usqp=CAU") no-repeat center fixed;
+  background-size:contain;
+
+}
+  

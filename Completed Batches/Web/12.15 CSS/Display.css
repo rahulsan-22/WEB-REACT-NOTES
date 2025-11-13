@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 10px solid red;
+    /* display: inline; */
+    height: 100px;
+    width: 300px;
+    margin:10px;
+}
+
+mark{
+    border: 10px solid green;
+    /* display: block; */
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+}
+
+div{
+    border: 5px solid black;
+    height: 150px;
+    width: 150px;
+    /* display: inline-block; */
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+    /* display: none; */
+    visibility: hidden;
+}
+#blue{
+    background-color: blue;
+}

@@ -1,0 +1,16 @@
+/* ! [ATTR] */
+[title]{
+    color: white;
+    background-color: dodgerblue;
+}
+
+/* ! [ATTR=VALUE] */
+[title="Shawarma"]{
+   color: black;
+   background-color:green;
+}
+
+[rahul="webTech"]{
+    color: white;
+    background-color: brown;
+}

@@ -1,0 +1,20 @@
+h1 {
+  filter: blur(5px);
+  filter: brightness(0.4);
+  filter: opacity(0%);
+  filter: grayscale(0.4);
+}
+
+img {
+  /* filter: blur(7px);
+   filter: brightness(0.5);
+   filter: brightness(50%);
+   filter: opacity(0.2);
+   filter: grayscale(0.9); */
+
+   filter: blur(5px) brightness(50%) opacity(0.2);
+}
+
+img:hover {
+  /* filter: drop-shadow(50px 50px 10px black); */
+}

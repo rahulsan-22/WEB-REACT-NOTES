@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#parent{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns:repeat(4,auto);
+  grid-template-rows: repeat(3,auto);
+}
+div{
+ border-radius: 50px;
+ margin: 12px;
+}
+#one{
+  background-color: red;
+  grid-row: 1/4;
+}
+#two{
+  background-color:green;
+  grid-column: 2/4;
+}
+#three{
+  background-color:maroon;
+}
+#four{
+  background-color:aqua;
+}
+#five{
+  background-color:pink;
+}
+#six{
+  background-color:purple;
+  grid-area: 2/4/4/5;
+}
+#seven{
+  background-color:orange;
+}
+#eight{
+  background-color:yellow;
+}

@@ -1,0 +1,91 @@
+/* !DESCENDENT SELECTOR(SPACE) */
+/* section p{
+    color: white;
+    background-color: red;
+}
+
+section h1{
+    color: white;
+    background-color: black;
+}
+
+section div{
+    color: white;
+    background-color: maroon;
+}
+
+div p{
+    color: white;
+    background-color: green;
+}
+
+div h1{
+    color: white;
+    background-color: blue;
+} */
+
+/* !CHILD SELECTOR(>) */
+/* section>p{
+    color: white;
+    background-color: red;
+} */
+
+/* section>h1{
+    color: white;
+    background-color: black;
+} */
+
+/* section>div{
+    color: white;
+    background-color: maroon;
+} */
+
+/* div>p{
+    color: white;
+    background-color: green;
+} */
+
+/* div>h1{
+    color: white;
+    background-color: blue;
+} */
+
+
+/* !ADJACENT SIBLING SELECTOR(+) */
+h1+p{
+    color: white;
+    background-color: hotpink;
+}
+p+p{
+    color: white;
+    background-color: aqua;
+}
+p+h1{
+    color: white;
+    background-color: orange;
+}
+p+div{
+    color: white;
+    background-color: gold;
+}
+
+/* !GENERAL SIBLING SELECTOR(~) */
+h1~p{
+    color: white;
+    background-color: hotpink;
+}
+
+p~p{
+    color: white;
+    background-color: aqua;
+}
+
+p~h1{
+    color: white;
+    background-color: orange;
+}
+
+p~div{
+    color: white;
+    background-color: gold;
+}

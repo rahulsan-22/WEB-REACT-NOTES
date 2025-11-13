@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form>
+
+        <label for="name">Name:</label>
+        <input id="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br><br>
+        <button>REGISTER</button>
+        <input type="submit" value="Register">
+    </form> -->
+
+   <form autocomplete="off" novalidate>
+    <fieldset>
+        <legend>TRAVEL FORM</legend>
+    <label for="name">Name:</label>
+    <input id="name" type="text" autofocus placeholder="Enter your name" value="RAHUL" readonly>
+    <br><br>
+    <label for="email">Email:</label>
+    <input id="email" type="email" disabled>
+    <br><br>
+    <label for="phone">Mobile:</label>
+    <input id="phone" type="tel" autofocus maxlength="10">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <br><br>
+
+    <!-- *RADIO BUTTON CODE -->
+    <label for="gender">Gender:</label>
+    
+    <input type="radio" id="male" name="gender" checked>
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+    
+    <input type="radio" id="others" name="gender">
+    <label for="others">Others</label>
+    <br><br>
+    
+    <!-- *CHECKBOX CODE -->
+    <label for="places">Places:</label>
+    <input type="checkbox" id="goa" name="places" checked>
+    <label for="goa">Goa</label>
+
+    <input type="checkbox" id="Thailand" name="places" checked>
+    <label for="Thailand">Thailand</label>
+
+    <input type="checkbox" id="Italy" name="places">
+    <label for="Italy">Italy</label>
+
+    <input type="checkbox" id="France" name="places" disabled>
+    <label for="France">France</label>
+    <br><br>
+    <!-- *DATE -->
+    <label for="dob">Dob:</label>
+    <input type="datetime-local" id="dob">
+    <br><br>
+    <!-- *DROPDOWN -->
+    <label for="country">Country:</label>
+    <select id="country">
+        <option>INDIA</option>
+        <option>AUSTRALIA</option>
+        <option>NEWZELAND</option>
+    </select>
+    <br><br>
+    <!-- *TEXTAREA(LARGE INPUT FIELD) -->
+    <label for="feedback">Feedback:</label>
+    <textarea  id="feedback" cols="20" rows="5"></textarea>
+    <br><br>
+    <!-- *FILE -->
+    <label for="id">Upload:</label>
+    <input type="file">
+    <br><br>
+    <input type="submit" value="Register">
+</fieldset>
+   </form>
+
+
+
+
+
+
+</body>
+</html>

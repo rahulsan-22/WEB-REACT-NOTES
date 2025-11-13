@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    /* border: 10px solid red; */
+    /* margin: 10px; */
+    /* margin-top:-40px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 40px; */
+
+    /* margin: 10px 20px 30px 40px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px;
+    margin: 10px; */
+
+    /* padding: 10px; */
+    /* padding-top: 10px; */
+    /* padding-right: 20px; */
+    /* padding-bottom: 30px; */
+    /* padding-left: 40px; */
+    /* padding: 10px 20px 30px 40px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px;
+    padding: 10px; */
+    /* height: 100px; */
+    /* width: 200px; */
+}
+
+/* img{
+    border: 20px solid aqua;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+} */
+
+
+section{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+   /* box-shadow: -30px -30px 100px 20px black inset;
+   border-radius: 50%; */
+
+   box-shadow: 10px 10px 5px red,
+   -10px -10px 5px red,
+   20px 20px 5px blue,
+   -20px -20px 5px blue,
+      30px 30px 5px green,
+   -30px -30px 5px green,
+      40px 40px 5px orange,
+   -40px -40px 5px orange
+   ;
+
+   box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+  box-shadow: 0px 0px 0px 10px red,
+  0px 0px 0px 20px blue;
+
+}

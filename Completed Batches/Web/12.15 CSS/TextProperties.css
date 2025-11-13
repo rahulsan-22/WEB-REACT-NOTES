@@ -1,0 +1,55 @@
+a{
+    text-decoration-line: none;
+}
+h1{
+    text-decoration-line: none;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+
+    text-decoration-style:solid;
+    text-decoration-style:dashed;
+    text-decoration-style:dotted;
+    text-decoration-style:double;
+    text-decoration-style:wavy;
+
+    text-decoration-color:rgb(235, 54, 4) ;
+
+    text-decoration-thickness:2px;
+
+    text-decoration: overline dotted lightcoral 2px;
+
+    text-align: left;
+    text-align: center;
+    text-align: right;
+    
+    text-shadow: 2px 2px 10px green;
+}
+
+p{
+    /* text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize; */
+
+    /* word-spacing: normal;
+    word-spacing: 10px; */
+
+    /* letter-spacing: normal;
+    letter-spacing: 5px; */
+
+    /* text-decoration: underline;
+    line-height: normal;
+    line-height: 100px; */
+
+    /* text-indent: 100px; */
+
+    text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+
+    text-align-last: left;
+    text-align-last: center;
+    text-align-last: right;
+    text-align-last:justify;
+}

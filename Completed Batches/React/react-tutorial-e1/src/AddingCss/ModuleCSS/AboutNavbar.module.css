@@ -1,0 +1,6 @@
+.nav{
+    background-color: red;
+}
+.nav>a{
+    color: green;
+}

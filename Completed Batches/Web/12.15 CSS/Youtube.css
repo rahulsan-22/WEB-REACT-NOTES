@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  /* border: 2px solid red; */
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+}
+
+#nav_one {
+  /* border: 2px solid blue; */
+  flex-basis: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav_one > i {
+  font-size: 20px;
+}
+#nav_one > img {
+  height: 23px;
+  width: 110px;
+}
+#nav_one > span {
+  font-size: 11px;
+  font-weight: 500;
+  color: #909090;
+  position: relative;
+  right: 20px;
+  bottom: 13px;
+}
+#nav_two {
+  /* border: 2px solid blue; */
+  flex-basis: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav_two > input {
+  height: 40px;
+  width: 550px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.328);
+  padding-left: 20px;
+}
+#nav_two > input:focus {
+  outline: 1px solid blue;
+}
+#search_container {
+  border: 1px solid rgba(0, 0, 0, 0.328);
+  height: 40px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  right: 55px;
+}
+#mic_container {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.328);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  right: 20px;
+}
+#nav_three {
+  /* border: 2px solid blue; */
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#create_container{
+border: 1px solid rgba(0, 0, 0, 0.328);
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+}
+.fa-bell{
+  font-size: 20px;
+}
+#username_container{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #512da7;
+}

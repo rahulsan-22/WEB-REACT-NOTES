@@ -1,0 +1,35 @@
+/* !ID(#) */
+#shaku {
+  color: white;
+  background-color: red;
+}
+
+/*!CLASS(.) */
+.sub{
+  color: white;
+  background-color: orange;
+}
+
+.sunday{
+  text-align: center;
+}
+
+/* !TAGNAME */
+mark{
+  color: white;
+  background-color: lightsalmon;
+}
+button{
+  color: white;
+  background-color: maroon;
+}
+/* !GROUPING (,) */
+#email,.password,label{
+  color: white;
+  background-color:tomato;
+}
+/* !UNIVERSAL */
+*{
+  color: white;
+  background-color: black;
+}

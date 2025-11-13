@@ -1,0 +1,52 @@
+h1{
+    color: blue;
+    /* border-width: 10px; */
+    /* border-style:dashed;
+    border-style:dotted;
+    border-style: double;
+    border-style: none;
+    border-style: groove;
+    border-style: ridge;
+    border-style: solid; */
+    /* border-color: red; */
+    /* border-color: aqua; */
+
+    /* border: 5px double fuchsia;
+    border: dashed darkmagenta 10px; */
+
+
+    /* border-width: 10px; */
+    /* border-top-width: 10px;
+    border-right-width: 20px;
+    border-bottom-width: 30px;
+    border-left-width: 40px; */
+    /* border-style: solid; */
+    /* border-top-style:solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double; */
+    /* border-color: chocolate; */
+    /* border-top-color:red;
+    border-right-color: green;
+    border-bottom-color: yellow;
+    border-left-color: blue; */
+}
+
+div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkcyan;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 40px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px; */
+    /* border-radius:50%; */
+}
+
+div:hover{
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}

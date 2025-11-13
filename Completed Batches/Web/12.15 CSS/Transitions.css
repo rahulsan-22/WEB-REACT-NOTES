@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+} */
+/* !Example 1*/
+/* #box {
+  height: 300px;
+  width: 300px;
+  background: yellow;
+  border: 5px solid black;
+  transition-property:background-color border-radius;
+  transition-property:all;
+  transition-duration:4s;
+  transition-duration: 900ms;
+  transition-delay: 5s;
+}
+
+#box:hover{
+  border-radius: 50%;
+  background-color: lightblue;
+} */
+
+/* !Example 2 */
+/* h1 {
+  font-size: 10px;
+  filter: blur(10px);
+  background-color: white;
+  color: black;
+  height: 10vh;
+  width: 10vw;
+  display: grid;
+  place-items: center;
+  transition-property: all;
+  transition-duration: 6s;
+  transition-delay: 1s;
+}
+h1:hover {
+  font-size: 250px;
+  filter: blur(0px);
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+} */
+
+/* !Example 3 */
+.box{
+  height: 150px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.line{
+  height: 13px;
+  width: 250px;
+  background-color: rgba(128, 128, 128, 0.48);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.circle{
+  height: 25px;
+  width: 25px;
+  background-color: royalblue;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  /* transition-property: all;
+  transition-duration: 3s;
+  transition-delay: 0s; */
+
+  transition: all 3s 0s;
+}
+.line:hover>.circle{
+  left: 200px;
+}
+
+.ease-in{
+  transition-timing-function: ease-in;
+}
+
+.ease-out{
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out{
+  transition-timing-function: ease-in-out;
+}
+
+.ease{
+  transition-timing-function: ease;
+}
+
+.linear{
+  transition-timing-function: linear;
+}

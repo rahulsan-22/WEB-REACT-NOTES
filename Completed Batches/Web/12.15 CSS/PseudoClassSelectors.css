@@ -1,0 +1,68 @@
+/* ! :HOVER */
+h1:hover{
+    color: white;
+    background-color: maroon;
+}
+button:hover{
+    color: white;
+    background-color: royalblue;
+}
+
+/* ! :FOCUS */
+input:focus{
+    color: white;
+    background-color: black;
+}
+
+/* ! :ACTIVE */
+a:active{
+    color: lime;
+}
+
+/* ! :VISITED */
+a:visited{
+    color: orangered;
+}
+
+/* ! :FIRST-CHILD */
+div>p:first-child{
+    color: white;
+    background-color: seagreen;
+}
+
+/* ! :LAST-CHILD */
+div>p:last-child{
+    color: white;
+    background-color: tomato;
+}
+
+/* !:NTH-CHILD */
+div>p:nth-child(9){
+    color: white;
+    background-color: fuchsia;
+}
+
+div>p:nth-child(3n){
+    color: white;
+    background-color: aqua;
+}
+
+div>p:nth-child(odd){
+    color: white;
+    background-color: black;
+}
+
+div>p:nth-child(even){
+    color: white;
+    background-color: green;
+}
+
+/* ! :CHECKED */
+input:checked+label{
+    color: red;
+}
+/* ! :NOT() */
+li:not(#exclude){
+    color: white;
+    background-color: purple;
+}
